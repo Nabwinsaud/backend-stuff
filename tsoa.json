@@ -3,12 +3,13 @@
     "noImplicitAdditionalProperties": "throw-on-extras",
     "controllerPathGlobs": ["src/services/**/*Controller.ts"],
     "spec": {
-      "outputDirectory": "message/swagger",
+      "outputDirectory": "swagger",
       "specVersion": 3
     },
     "routes": {
-      "routesDir": "build"
+      "routesDir": "swagger"
     },
+    
     "ignore":["**/node_modules/**"]
   }
   
